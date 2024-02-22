@@ -1,10 +1,23 @@
-.navbar {
+.section-top{
+    height: 787px;
+}
+.navbar{
     height: 104px;
-    margin-top: 60px;
-    margin-bottom: 40px;
+}
+.navbar-brand{
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
 }
+.navbar-nav {
+    flex-direction: row;
+}
+.nav-item {
+    margin-left: 40px;
+    padding: 0;
+}
+
 .navbar .navbar-nav {
     flex-direction: row;
     position: absolute; 
@@ -18,40 +31,70 @@
     margin-top: 38px;
     margin-bottom: 38px;
 }
-
 .navbar-light .navbar-nav .nav-item .nav-link {
-
     font-style:normal;
     font-weight:normal;
     font-size: 20px;
     line-height: 28px;
-
     color: #323232;
 }
-
-.section-top{
-    
-    height: 787px;
-}
-.navbar-brand .logo{
-    height: 104px;
-    width: 216px;
-}
-
-
-.navbar .btn-warning{
-    margin-top: 18px;
-    margin-bottom: 18px;
-
-    width: 200px;
+.btn-yellow{
+    background: #FBBC05;
+    width: 204px;
     height: 60px; 
-
+    border-radius: 58px;
+    border: 0;
     font-style:normal;
     font-size: 22px;
     line-height: 28px;
     font-weight:500;
-
     color: #FFFFFF;
-
     transition: all .3s;
 }
+.btn-yellow:hover{
+    background: #c59400;
+}
+
+.header-top-info-container {
+    height: 575px;
+    margin-top: 67px;
+    background-image: url("/images/ilustration.png");
+    background-repeat: no-repeat;
+    background-position-x:right;
+}
+
+
+
+.header-top-info-container > h1 span{
+    font-family: "Alata", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 69px;
+    line-height: 100%;
+    /* or 56px */
+    
+    
+    color: #0D0C22;
+}
+.header-top-info-container > h1{
+    font-family: "Paytone One", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 69px;
+    line-height: 100%;
+    /* or 56px */
+    
+    
+    color: #FBBC05;
+}
+
+.header-top-info-container > .text {
+    
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #696A86;
+}
+
+
+
