@@ -1,0 +1,57 @@
+.navbar {
+    height: 104px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+.navbar .navbar-nav {
+    flex-direction: row;
+    position: absolute; 
+    left: 50%; 
+    transform: translatex(-50%);
+
+}
+.navbar-nav .nav-item{
+    margin-left: 40px;
+    padding: 0;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+
+    font-style:normal;
+    font-weight:normal;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #323232;
+}
+
+.section-top{
+    
+    height: 787px;
+}
+.navbar-brand .logo{
+    height: 104px;
+    width: 216px;
+}
+
+
+.navbar .btn-warning{
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+    width: 200px;
+    height: 60px; 
+
+    font-style:normal;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight:500;
+
+    color: #FFFFFF;
+
+    transition: all .3s;
+}
