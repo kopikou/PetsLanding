@@ -191,7 +191,7 @@ body{
 
 /* APP SECTION */
 .app-section{
-    height: 740px;
+    height: 730px;
     padding-top: 60px;
     background-image: url("/images/iphone.png");
     background-repeat: no-repeat;
@@ -310,4 +310,99 @@ body{
     background-image: url("/images/dog.png");
     background-repeat: no-repeat;
     background-position-x:right;
+    padding-top: 40px;
+}
+.newsletter h2{
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    font-weight: bold; 
+}
+.newsletter .texto{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+.newsletter .newsletter-item{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 19px;
+}
+.newsletter .emaile{
+    width: 569px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 35px;
+    padding-right: 5px;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.newsletter .emaile > .text{
+    justify-content: start;
+}
+.btn-circle{
+    border: 0;
+    box-sizing:border-box;
+    border-radius:90px;
+    background: #FBBC05;
+    height: 55px;
+    width: 55px;
+    margin-left: 320px;
+}
+
+/* FOOTER SECTION*/
+.footer{
+    height: 530px;
+    background-color: #EDE8E8;
+    border: 0;
+    box-sizing: border-box;
+    border-start-start-radius: 45px;
+    border-start-end-radius: 45px;
+    margin-bottom: 103px;
+    padding-top: 20px;
+}
+.navbar-nav .nav-itemf{
+    margin-left: 60px;
+    padding: 0;
+
+}
+.navbar-light .navbar-nav .nav-itemf .nav-linkf {
+    font-style:normal;
+    font-weight:normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #323232;
+}
+.social{
+    display: flex;
+    flex-direction: row;    
+}
+.social .social-item{
+    margin-left: 18px;
+}
+.contact{
+    height: 185px;
+}
+.footer .contact .subscription{
+    height: 185px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contact .contact-item{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.contact .contact-item .caption{
+    background: #FBBC05;
+    size: auto;
+    border-radius: 7px;
 }
