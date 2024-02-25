@@ -354,6 +354,9 @@ body{
     width: 55px;
     margin-left: 320px;
 }
+.btn-circle:hover{
+    background: #c59400;
+}
 
 /* FOOTER SECTION*/
 .footer{
@@ -384,12 +387,17 @@ body{
 }
 .social .social-item{
     margin-left: 18px;
+    margin-right: 20px;
 }
 .contact{
+    margin-top: 66px;
     height: 185px;
+    display: flex;
+    flex-direction: row;
 }
 .footer .contact .subscription{
     height: 185px;
+    width: 696px;
     background-color: #FFFFFF;
     border-radius: 14px;
     display: flex;
@@ -400,9 +408,48 @@ body{
 .contact .contact-item{
     font-size: 20px;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 .contact .contact-item .caption{
     background: #FBBC05;
     size: auto;
     border-radius: 7px;
+}
+.contact .subscription .email-text{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 35px;
+    height: 60px;
+    width: 280px;
+    border: 1px solid #000000;
+    border-radius: 14px;
+    font-size: 18px;
+    line-height: 20px;
+} 
+.contact .subscription .btn-yellow-email{
+    background: #FBBC05;
+    width: 300px;
+    height: 60px; 
+    border-radius: 14px;
+    border: 0;
+    font-style:normal;
+    font-size: 20px;
+    line-height: 28px;
+    transition: all .3s;
+    margin-left: 20px;
+}
+.contact .subscription .btn-yellow-email:hover{
+    background: #c59400;
+}
+.line{
+    height: 78px;
+    margin-top: 50px;
+}
+.line .foot{
+    margin-top: 30px;
+}
+.line .foot .text-footer{
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 28px;
 }
